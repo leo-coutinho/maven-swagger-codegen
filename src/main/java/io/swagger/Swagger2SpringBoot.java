@@ -10,7 +10,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
 @EnableSwagger2
-@ComponentScan(basePackages = { "io.swagger", "com.qantas.task.profile.v1.api" })
+@ComponentScan(basePackages = { "io.swagger", "com.qantas.task.profile.v1.api","com.qantas.task.profile.v1.service" })
 public class Swagger2SpringBoot implements CommandLineRunner {
 
     @Override

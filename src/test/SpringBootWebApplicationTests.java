@@ -2,6 +2,7 @@ package src.test;
 
 
 import com.qantas.task.profile.v1.api.UserApiController;
+import com.qantas.task.profile.v1.service.UserProfileServices;
 import io.swagger.Swagger2SpringBoot;
 import org.junit.Before;
 import org.junit.Test;
@@ -32,8 +33,11 @@ public class SpringBootWebApplicationTests {
     @Autowired
     MockHttpSession session;
 
+    @Autowired
+    UserProfileServices userProfileServices;
     @Mock
     UserApiController controller;
+
 
     private MockMvc mockMvc;
 
