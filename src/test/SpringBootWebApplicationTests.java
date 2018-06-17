@@ -1,18 +1,13 @@
 package src.test;
 
 
-import com.qantas.task.profile.v1.api.UserApiController;
-import com.qantas.task.profile.v1.service.UserProfileServices;
 import io.swagger.Swagger2SpringBoot;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.mockito.Mock;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.mock.web.MockHttpSession;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
@@ -30,13 +25,6 @@ public class SpringBootWebApplicationTests {
     @Autowired
     WebApplicationContext wac;
 
-    @Autowired
-    MockHttpSession session;
-
-    @Autowired
-    UserProfileServices userProfileServices;
-    @Mock
-    UserApiController controller;
 
 
     private MockMvc mockMvc;

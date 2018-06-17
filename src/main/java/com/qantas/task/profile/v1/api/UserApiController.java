@@ -13,6 +13,10 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 @javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2018-06-17T11:50:16.623+10:00")
 
+/**
+ * @author Leo Coutinho
+ */
+
 @RestController
 public class UserApiController implements UserApi {
 

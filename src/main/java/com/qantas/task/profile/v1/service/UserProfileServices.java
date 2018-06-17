@@ -1,18 +1,20 @@
 package com.qantas.task.profile.v1.service;
 
 
-import com.qantas.task.profile.v1.model.Address;
 import com.qantas.task.profile.v1.model.UserRequest;
 import com.qantas.task.profile.v1.model.UserResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
+
+/**
+ * @author Leo Coutinho
+ */
 // This service could be use to make calls to local repositories or calls to an external API.
-
-
-@Component
+@Service("userProfileServices")
 public class UserProfileServices {
+
 
     private final Logger log = LoggerFactory.getLogger(getClass());
 
