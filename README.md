@@ -208,7 +208,11 @@ The CRM team is in the process of designing their REST APIs.
 Spring Basic Auth is the preferred security for this exercise.      
 The process of creating the Authorization header is relatively straightforward for Basic   
 Authentication, so it can be done manually with a few lines of code.   
-More time is needed for full on application process authentication, such as OAuth with access token.    
+More time is needed for full on application process authentication, such as OAuth with access token.   
+Swagger can be configure to access an OAuth-secure API using the SecurityScheme and SecurityContext.   
+The SecurityScheme is use to describe how our API is secured(Basic Authentication, OAuth2,...).   
+   
+    
      
    
 ## Getting Started   
